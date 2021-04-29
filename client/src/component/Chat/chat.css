@@ -1,0 +1,57 @@
+.chat{
+    display: grid;
+    grid-template-columns: 2fr 8fr;
+  background-color: rgb(164, 231, 243);
+  height: 100vh;
+  width:100vw;
+}
+.message-box{
+    margin-left: 30px;
+    /* background-color: rgb(124, 161, 175); */
+    height: 80px;
+    width: 890px;
+    position: absolute;
+    top: 540px;
+}
+.people{
+    padding: 3%;
+    height:100vh;
+    width: 100%;
+    background-color: white;
+}
+ul{
+    list-style: none;
+}
+.message{
+    border: none;
+    margin-left: 5px;
+    outline: none;
+    box-shadow: 1px 5px rgb(105, 4, 4);
+    height: 30px;
+    width:890px;
+    padding: 2%;
+    border-radius: 20px;
+}
+.chat-show{
+    height: 70vh;
+    padding: 3%;
+    color: white;
+}
+.Each-Message{
+    padding: 4%;
+    background-color: rgb(30 34 66);
+    margin: 20px;
+}
+.room{
+    background-color: #6d0f0f;
+    color: white;
+    padding: 3%;
+    margin: 4%;
+}
+.join-people{
+    padding: 3%;
+    margin: 4%;
+}
+.join-people ul{
+    font-weight: 700;
+}

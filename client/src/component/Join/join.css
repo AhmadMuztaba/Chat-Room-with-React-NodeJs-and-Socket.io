@@ -1,0 +1,28 @@
+.background{
+    background-color:rgb(30, 34, 66);
+    padding:2%;
+    height: 300px;
+    width:300px;
+    margin:auto auto;
+    margin-top: 100px;
+}
+/* 
+input[type=text]{
+    width: 210px;
+    height: 40px;
+    padding: 3%;
+    margin:20px
+} */
+
+.info{
+    outline: none;
+    width: 210px;
+    height: 40px;
+    font-size: 110%;
+    padding: 3%;
+    margin:20px
+}
+.btn{
+    margin-top: 40px;
+    margin-left: 80px;
+}
